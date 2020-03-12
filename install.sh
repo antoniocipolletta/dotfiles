@@ -1,8 +1,8 @@
 rm ~/.vimrc
-ln -s vimrc ~/.vimrc
+ln -s ${HOME}/dotfiles/vimrc ~/.vimrc
 
 rm ~/.tmux.conf
-ln -s tmux.conf ~/.tmux.conf
+ln -s ${HOME}/dotfiles/tmux.conf ~/.tmux.conf
 
 rm -rf ~/.vim
-ln -s vim ~/.vim
+ln -s ${HOME}/dotfiles/vim ~/.vim
