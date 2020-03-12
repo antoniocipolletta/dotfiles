@@ -1,3 +1,6 @@
+git submodule init
+git submodule update
+
 rm ~/.vimrc
 ln -s ${HOME}/dotfiles/vimrc ~/.vimrc
 
